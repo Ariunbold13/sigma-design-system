@@ -1,0 +1,30 @@
+{
+  "name": "@sigma/design-system",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "clean": "lerna clean",
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "@babel/core": "^7.x",
+    "@babel/preset-env": "^7.x",
+    "typescript": "^4.x",
+    "sass": "^1.x",
+    "postcss": "^8.x",
+    "autoprefixer": "^10.x",
+    "eslint": "^8.x",
+    "jest": "^27.x"
+  },
+  "keywords": [],
+  "author": "Ariunbold Boldbaatar",
+  "license": "Apache-2.0",
+  "description": "Sigma Design System for web development. CSS & JS version.",
+}
